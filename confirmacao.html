@@ -12,7 +12,7 @@
     <p>Digite seu número de WhatsApp para confirmar:</p>
 
     <input type="text" id="whatsapp" placeholder="81999999999"> 
-    
+
         <br><br>
 
         <button onclick="enviarWhatsApp()">Confirmar pelo WhatsApp</button>
@@ -23,7 +23,7 @@
             let numero = 
             document.getElementById("whatsapp").value;
 
-            let mensagem = "Óla,fiz um agendamento pelo kairos.%OA%OANome: Cliente%OAServiço: Corte%OAHorário:14:00 pm ";
+            let mensagem = "Óla ,Fiz Um Agendamento Pelo Kairos.       Nome: Cliente                     Serviço: Corte              Horário: 14:00 pm";
 
             let link = "https://wa.me/55" + numero + "?text=" + mensagem;
 
